@@ -1,0 +1,63 @@
+#section{
+    width: 100%; 
+    background-color: #f6f7f8 ;   
+    padding: 50px;
+    box-sizing: border-box;
+
+}
+#section .container{
+    width: 1000px;
+    margin: 0 auto;
+    padding: 50px;
+}
+#section .container .title{
+    text-align: center;
+}
+#section .container .title h1{
+    font-size: 3rem;
+    font-weight: 200;
+    margin-bottom: 50px;
+    position: relative;
+}
+#section .container .title h1::before{
+    content: "";
+    width: 50px;
+    height: 5px;
+    background-color: blue;
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+    margin-left: -25px;
+}
+#section .container .title h1 span{
+    font-weight: 600;
+}
+
+#section .container .title p{
+    padding-bottom: 10px;
+}
+
+#section .container .form{}
+#section .container .form .left input{
+
+padding-bottom: 3px;
+ max-height: 41px;
+ height: 41px;
+   display: inline;
+   box-shadow:none;
+   width: 339px;
+  
+}
+#messagebox{
+    width: 339px;
+    height: 170px;
+}
+#buttonform{
+    background-color: rgb(9, 9, 110);
+    width: 339px;
+    color: white;
+    border-radius: 10px;
+}
+#section .container .form .right h2{
+    float: right;
+}
